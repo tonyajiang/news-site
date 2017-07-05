@@ -1,0 +1,10 @@
+CREATE TABLE `comments` (
+  `username` varchar(50) NOT NULL,
+  `story_id` smallint(20) unsigned NOT NULL,
+  `link` varchar(255),
+  `comment` text NOT NULL,
+  `comment_id` smallint(20) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (comment_id),
+  FOREIGN KEY (story_id) references `story` (id),
+  FOREIGN KEY (username) references `users` (username)
+);

@@ -1,0 +1,8 @@
+CREATE TABLE `story` (
+  `id` smallint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `link` varchar(255),
+  `story` text NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (username) references `users` (username)
+);

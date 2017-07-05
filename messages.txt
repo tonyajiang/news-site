@@ -1,0 +1,5 @@
+CREATE TABLE `messages` (
+  `from_user` varchar(50) NOT NULL,
+  `to_user` varchar(50) NOT NULL,
+  `message` text
+);

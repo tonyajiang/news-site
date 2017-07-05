@@ -1,0 +1,13 @@
+Ben Trunnel 444667
+Tonya Jiang 444524
+
+http://ec2-54-173-49-119.compute-1.amazonaws.com/~jiangt/module3/index.php
+
+Creative Portion:
+1. User Profile page
+2. Messaging system
+
+Login Info:
+Current registered users [tonya(pw: 1234), ben(pw: ben), test(pw: test)]
+Or create a new user
+
